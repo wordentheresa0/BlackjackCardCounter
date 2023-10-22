@@ -1,0 +1,11 @@
+My mini project is a game that helps you practice card counting for blackjack. 
+Running the code will bring you to a starting screen where you have four options: Start, Instructions, Statistics, and Exit. Start will begin the game, Instructions describes card counting and how to play the game, and Exit quits the program. 
+The Statistics feature works a little differently this time, and the statistics are only going to be displayed after the game ends.
+If the player chooses 'Start', they are prompted to type in their name. Then the game begins. 
+A statement will show what card was pulled and the player has to type in what they think the running count is. 
+Every five rounds, the game will let the player know if they are correct or not with their guess and will be promted if they want to continue or stop. 
+The statistics that are recorded are rounds played, total correct guesses, and total incorrect guesses.
+
+If I had more time, I would have liked to actually implement the PlayerFromFile struct to actually get it working. 
+Reading and writing files is a lot harder than I expected.
+However, I wanted to implement the interface to prove that I know how to set one up.
